@@ -67,6 +67,6 @@ let step = () => {
         if (n < string.length) {
             step();
         };
-    }, 0);
+    }, 50);
 };
 step();

@@ -61,7 +61,7 @@ let step = ()=>{
         console.log(string2);
         n = n + 1;
         if (n < string.length) step();
-    }, 0);
+    }, 50);
 };
 step();
 
